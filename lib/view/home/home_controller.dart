@@ -16,14 +16,6 @@ class HomeController extends GetxController {
   ];
   var filteredTopic = <Topic>[].obs;
 
-  @override
-  void onInit() {
-    // TODO: implement onInit
-    super.onInit();
-
-    filteredTopic.assignAll(listTopic);
-  }
-
   search(String value) {
     topic(value.toLowerCase());
 
