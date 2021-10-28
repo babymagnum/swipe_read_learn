@@ -5,7 +5,7 @@ class HomeController extends GetxController {
   var topic = ''.obs;
   var listTopic = <Topic>[
     Topic('Future Tech', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS296OGdNzDrondREzGPn_FBCQUzmTevckb0Q&usqp=CAU'),
-    Topic('Cyptocurrency', 'https://disk.mediaindonesia.com/thumbs/1800x1200/news/2021/06/624b0264e17758f4a4394526096afc03.jpg'),
+    Topic('Cryptocurrency', 'https://disk.mediaindonesia.com/thumbs/1800x1200/news/2021/06/624b0264e17758f4a4394526096afc03.jpg'),
     Topic('Gaming', 'https://signal.avg.com/hubfs/Blog_Content/Avg/Signal/AVG%20Signal%20Images/9%20Ways%20to%20Boost%20Your%20Gaming%20Rig/How_to_Improve_Your_Gaming_PC_Performance-Hero.jpg'),
     Topic('Business', 'https://dieng.blob.core.windows.net/ict/2019/02/business-3152586_960_720.jpg'),
     Topic('Fintech', 'https://cdn0-production-images-kly.akamaized.net/c0YO00WUAHLWLUqmdZZNNMT5z88=/640x480/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2294069/original/086042800_1532755755-New_Project.jpg'),
